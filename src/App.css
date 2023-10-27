@@ -1,0 +1,294 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  box-sizing: border-box;
+}
+
+/* creation of nav bar */
+.nav{
+  color: red;
+  display: flex;
+  box-shadow:  5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  
+}
+
+.contact{
+  margin-left: 400px;
+  margin-right: 20px;
+  padding: 8px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.login{
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid black;
+
+}
+
+.login:hover{
+  font-weight: bold;
+}
+
+.contact:hover{
+  font-weight: bold;
+}
+.navLeft{
+  padding:30px;
+  color: rgb(148, 148, 10);
+ 
+
+}
+
+.courses{
+  margin-left: 380px;
+}
+
+.navLeft a{
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.navLeft a:hover{
+  color:black;
+  font-weight: bold;
+}
+
+.nav{
+  background-color: white;
+  width: 2000px;
+  position: fixed;
+  z-index: 1;
+ 
+}
+
+
+.learn{
+  font-size: 30px;
+}
+
+
+/* end of nav bar */
+
+
+/* start of the hero section */
+ .head h1{
+  color:darkorange;
+  margin-top: 200px;
+  margin-left: 150px;
+  position: relative;
+  display: inline-block;
+ 
+  
+}
+/* 
+.head h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px; 
+  background-color: yellow;
+} */
+
+
+.head2 h2{
+  color: darkorange;
+    margin-left:100px;
+}
+
+.p1{
+  border: 2px solid white;
+  width: 400px;
+  padding: 20px;
+  margin-left: 550px;
+  border-radius: 10px;
+}
+
+
+.para1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  
+}
+
+.p2,.p3,.p4,.p5{
+  border: 2px solid white;
+  width: 400px;
+  padding: 20px;
+  margin-left: 330px;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-out;
+}
+
+.p1:hover{
+  color: black;
+  background-color: lightcoral;
+}
+
+.p2:hover{
+  color: black;
+  background-color: lightcoral;
+}
+.p3:hover{
+  color: black;
+  background-color: lightcoral;
+}
+.p4:hover{
+  color: black;
+  background-color: lightcoral;
+}
+.p5:hover{
+  color: black;
+  background-color: lightcoral;
+}
+
+.p3,.p5{
+  margin-left: 20px;
+}
+
+.hero{
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  /* width: 1600px; */
+  height: 1100px;
+  position: absolute;
+}
+
+.btn button{
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+
+.btn button:hover{
+  font-weight: bolder;
+
+}
+
+/* end of the hero section */
+
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-left: 38px;
+  margin-right: 38px;
+  padding: 10px;
+}
+
+.c1,.c2,.c3{
+  margin-top: 1200px;
+  /* border: 2px solid yellow; */
+  margin-bottom: 30px;
+  border-radius: 10px;
+  
+}
+
+.c1:hover{
+  color:white;
+  background-color: yellowgreen;
+  border: 3px solid black;
+  font-weight: bold;
+ 
+}
+
+.c2:hover{
+  color:white;
+  background-color: yellowgreen;
+  border: 3px solid black;
+  font-weight: bold;
+ 
+}
+
+.c3:hover{
+  color:white;
+  background-color: yellowgreen;
+  border: 3px solid black;
+  font-weight: bold;
+ 
+}
+
+
+
+.img
+{
+  height: 100px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+
+
+.cardp1{
+  margin-left: 10px;
+}
+
+.end{
+
+  color: darkorange;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
