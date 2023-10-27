@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BasicWebPage_React/static/css/main.a9cee160.css",
+    "main.js": "/BasicWebPage_React/static/js/main.fb82be31.js",
+    "static/media/DML.png": "/BasicWebPage_React/static/media/DML.1f8f58113bb59231ce9f.png",
+    "static/media/cybersec.jpg": "/BasicWebPage_React/static/media/cybersec.a9246e45470dbb8660a0.jpg",
+    "static/media/webdev.png": "/BasicWebPage_React/static/media/webdev.5277c38c15aab2e3a272.png",
+    "index.html": "/BasicWebPage_React/index.html",
+    "main.a9cee160.css.map": "/BasicWebPage_React/static/css/main.a9cee160.css.map",
+    "main.fb82be31.js.map": "/BasicWebPage_React/static/js/main.fb82be31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9cee160.css",
+    "static/js/main.fb82be31.js"
+  ]
+}
